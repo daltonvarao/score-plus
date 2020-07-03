@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "score-counter",
-    "slug": "score-counter",
+    "name": "Score+",
+    "slug": "score-plus",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,11 +13,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.daltonfelipe.scoreplus",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
